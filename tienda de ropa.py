@@ -11,4 +11,11 @@ for i in range(cantidad):
             break
 
 nombre = input("Nombre del Producto")
-categoria = input("categoria(hombre,mujer,niño)")
+categoria = input("Categoria (hombre,mujer,niño)")
+talla = input("Talla (XS,S,M,L,XL)")
+
+precio = int(input("ingrese el precio del producto"))
+if precio <= 0:
+    print("Verifica lo ingresado, no puede ser negativo")
+else:
+
