@@ -35,4 +35,6 @@ tienda[codigo] = {
     'precio': precio,
     'stock': stock,
 }
-#AAAH NO SEEEEEEE
+print("\nLista de estudiantes: ")
+for codigo,datos in tienda.items():
+    print
