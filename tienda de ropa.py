@@ -14,9 +14,17 @@ nombre = input("Nombre del Producto")
 categoria = input("Categoria (hombre,mujer,niño)")
 talla = input("Talla (XS,S,M,L,XL)")
 
-precio = int(input("ingrese el precio del producto"))
-if precio <= 0:
+while True:
+ precio = int(input("ingrese el precio del producto"))
+ if precio <= 0:
     print("Verifica lo ingresado, no puede ser negativo")
-else:
+ else:
     break
+
+while True:
+    stock = int(input(f"\nIngrese la cantidad los producto: "))
+    if stock <= 0:
+        print("Verifica lo ingresado, no puede ser negativo")
+    else:
+        break
 
