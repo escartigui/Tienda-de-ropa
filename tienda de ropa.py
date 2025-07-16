@@ -10,19 +10,19 @@ for i in range(cantidad):
         else:
             break
 
-    nombre = input("Nombre del Producto ")
-    categoria = input("Categoria (hombre,mujer,niño) ")
-    talla = input("Talla (XS,S,M,L,XL) ")
+    nombre = input("Nombre del Producto: ")
+    categoria = input("Categoria (hombre,mujer,niño): ")
+    talla = input("Talla (XS,S,M,L,XL): ")
 
     while True:
-       precio = int(input("ingrese el precio del producto"))
+       precio = int(input("ingrese el precio del producto: "))
        if precio <= 0:
         print("Verifica lo ingresado, no puede ser negativo")
        else:
          break
 
     while True:
-        stock = int(input(f"\nIngrese la cantidad los producto: "))
+        stock = int(input(f"Ingrese la cantidad los producto: "))
         if stock <= 0:
          print("Verifica lo ingresado, no puede ser negativo")
         else:
