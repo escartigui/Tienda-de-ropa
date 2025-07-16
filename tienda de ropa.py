@@ -56,4 +56,19 @@ if encontrado in tienda:
 else:
     print("No se encuentra el producto")
 
+valor_total = 0
+for datos in tienda.values():
+    valor_total += datos['precio'] * datos['stock']
+print(f"valor total del inventario: {valor_total}")
 
+categoria = {}
+
+for datos in tienda.values():
+    cat = datos['categoria']
+    if cat in categoria:
+        categoria[cat] += 1
+    else:
+        categoria[cat] = 1
+print("cantidad de productos: ")
+for categoria,cantidad in categoria.items():
+    print(f"{categoria}: {cantidad}productos")
