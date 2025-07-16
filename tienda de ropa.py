@@ -35,3 +35,4 @@ tienda[codigo] = {
     'precio': precio,
     'stock': stock,
 }
+#AAAH NO SEEEEEEE
