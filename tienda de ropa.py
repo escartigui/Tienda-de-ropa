@@ -36,7 +36,7 @@ for i in range(cantidad):
         "stock": stock,
 }
 
-print("\nLista de estudiantes: ")
+print("\nLista de productos: ")
 for codigo,datos in tienda.items():
     print(f"codigo: {codigo}")
     print(f"Nombre: {datos['nombre']}")
@@ -48,7 +48,7 @@ for codigo,datos in tienda.items():
 print("\nBuscar")
 encontrado = input(f"Ingrese el codigo para poder encontrarlo: ")
 if encontrado in tienda:
-    print(f"nombre: {tienda[encontrado],['nombre']}")
+    print(f"nombre: {tienda[encontrado]['nombre']}")
     print(f"categoria: {tienda[encontrado]['categoria']}")
     print(f"talla: {tienda[encontrado]['talla']}")
     print(f"precio: {tienda[encontrado]['precio']}")
@@ -71,4 +71,4 @@ for datos in tienda.values():
         categoria[cat] = 1
 print("cantidad de productos: ")
 for categoria,cantidad in categoria.items():
-    print(f"{categoria}: {cantidad}productos")
+    print(f"{categoria}: {cantidad} productos")
