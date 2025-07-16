@@ -1,4 +1,4 @@
-tienda= []
+tienda= {}
 cantidad = int(input(f"\nIngrese la cantidad de sus productos: "))
 for i in range(cantidad):
     print(f"\nproductos #{i+1}")
@@ -47,4 +47,11 @@ for codigo,datos in tienda.items():
 print("buscar")
 encontrado = input(f"\nIngrese el codigo para poder encontrarlo: ")
 if encontrado in tienda:
+    print(f"nombre: {tienda[encontrado],['nombre']}")
+    print(f"categoria: {tienda[encontrado]['categoria']}")
+    print(f"talla: {tienda[encontrado]['talla']}")
+    print(f"precio: {tienda[encontrado]['precio']}")
+    print(f"stock: {tienda[encontrado]['stock']}")
+else:
+    print("No se encuentra el producto")
 
