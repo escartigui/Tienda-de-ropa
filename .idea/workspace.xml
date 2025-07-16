@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d00bbff-d56a-41a2-a69b-30b9e7771df0" name="Changes" comment="escar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tienda de ropa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tienda de ropa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752544030556</updated>
       <workItem from="1752544031338" duration="223000" />
-      <workItem from="1752629711661" duration="332000" />
+      <workItem from="1752629711661" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="escar">
       <option name="closed" value="true" />
@@ -83,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752544211404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="escar">
+      <option name="closed" value="true" />
+      <created>1752630295429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752630295429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="escar">
+      <option name="closed" value="true" />
+      <created>1752630446221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752630446221</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
