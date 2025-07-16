@@ -28,3 +28,10 @@ while True:
     else:
         break
 
+tienda[codigo] = {
+    'nombre': nombre,
+    'categoria': categoria,
+    'talla': talla,
+    'precio': precio,
+    'stock': stock,
+}
