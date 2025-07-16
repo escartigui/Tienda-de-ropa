@@ -18,4 +18,5 @@ precio = int(input("ingrese el precio del producto"))
 if precio <= 0:
     print("Verifica lo ingresado, no puede ser negativo")
 else:
+    break
 
