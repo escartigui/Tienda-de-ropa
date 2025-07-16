@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d00bbff-d56a-41a2-a69b-30b9e7771df0" name="Changes" comment="escar" />
+    <list default="true" id="5d00bbff-d56a-41a2-a69b-30b9e7771df0" name="Changes" comment="escar">
+      <change beforePath="$PROJECT_DIR$/tienda de ropa.py" beforeDir="false" afterPath="$PROJECT_DIR$/tienda de ropa.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752544030556</updated>
       <workItem from="1752544031338" duration="223000" />
-      <workItem from="1752629711661" duration="3205000" />
+      <workItem from="1752629711661" duration="3506000" />
     </task>
     <task id="LOCAL-00001" summary="escar">
       <option name="closed" value="true" />
@@ -152,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752632893515</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="escar">
+      <option name="closed" value="true" />
+      <created>1752633174331</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752633174331</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
