@@ -45,8 +45,8 @@ for codigo,datos in tienda.items():
     print(f"Precio: {datos['precio']}")
     print(f"Stock: {datos['stock']}")
 
-print("buscar")
-encontrado = input(f"\nIngrese el codigo para poder encontrarlo: ")
+print("\nBuscar")
+encontrado = input(f"Ingrese el codigo para poder encontrarlo: ")
 if encontrado in tienda:
     print(f"nombre: {tienda[encontrado],['nombre']}")
     print(f"categoria: {tienda[encontrado]['categoria']}")
